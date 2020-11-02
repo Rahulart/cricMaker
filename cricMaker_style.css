@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('https://www.themeraider.com/wp-content/uploads/2017/02/feat-feb-3-2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login {
+    width: 500px;
+    background-color: rgba(0,0,0,0.9);
+    margin: 12% auto;
+    padding: 50px 0;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.login-content {
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.login-content input {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+::placeholder {
+    color: #ccc;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bttn {
+    text-align: center;
+}

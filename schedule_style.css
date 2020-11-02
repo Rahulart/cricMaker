@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('https://curlytales.com/wp-content/uploads/2020/09/f79e8089ced9d3e4912eb65b4c5c4259-1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-menu-schedule {
+    float: right;
+    padding-right: 20px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-menu-schedule li {
+    display: inline-block;
+}
+
+.nav-menu-schedule li a {
+    color: red;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.nav-menu-schedule li a:hover {
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.topic-schedule {
+    color: white;
+    padding-left: 50px;
+    font-size: 50px;
+}
+
+.box-schedule {
+    width: 800px;
+    background-color: rgba(0,0,0,0.9);
+    margin: 10% auto;
+    padding: 30px;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
